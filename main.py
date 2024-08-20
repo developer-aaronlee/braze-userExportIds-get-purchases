@@ -4,7 +4,7 @@ import requests
 from requests.auth import HTTPBasicAuth
 
 url = 'https://rest.iad-06.braze.com/users/export/ids'
-API_KEY = 'Bearer 2c324fa9-7629-4b0a-9527-7ac6e8b1e0d5'
+API_KEY = 'Bearer api_key'
 headers = {
     'Content-Type': 'application/json',
     'Authorization': API_KEY
